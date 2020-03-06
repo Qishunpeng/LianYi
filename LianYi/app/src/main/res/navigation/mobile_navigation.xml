@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_note">
+
+    <fragment
+        android:id="@+id/navigation_note"
+        android:name="com.arcsoft.arcfacedemo.fragment.note.NoteFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_note" />
+
+    <fragment
+        android:id="@+id/navigation_find"
+        android:name="com.arcsoft.arcfacedemo.fragment.find.FindFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_find" />
+
+    <fragment
+        android:id="@+id/navigation_momemt"
+        android:name="com.arcsoft.arcfacedemo.fragment.moment.MomentFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_moment" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.arcsoft.arcfacedemo.fragment.my.MyFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_my" />
+</navigation>

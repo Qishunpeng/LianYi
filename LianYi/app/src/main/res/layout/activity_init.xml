@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faceactivity.ChooseFunctionActivity">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本软件使用时需首先设置人脸登录后方可使用，点击下方注册按钮进行人脸注册。" />
+
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/login"
+            android:text="注册" />
+
+    </LinearLayout>
+
+</RelativeLayout>
